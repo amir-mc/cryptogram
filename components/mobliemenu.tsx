@@ -6,11 +6,12 @@ import { useState } from "react";
 const Mobilemenu = () => {
     const [isOpen,setIsopen]=useState(false)
     return ( 
-        <div className="" onClick={()=>setIsopen((prev)=>!prev)}>
+        <div className="md:hidden" onClick={()=>setIsopen((prev)=>!prev)}>
             <div className="flex flex-col gap-[4.5] cursor-pointer">
-                <div className="w-6 h-1 bg-blue-500 rounded-sm"/>
-                <div className="w-6 h-1 bg-blue-500 rounded-sm"/>
-                <div className="w-6 h-1 bg-blue-500 rounded-sm"/>
+                <div className={`w-6 h-1 bg-blue-500 rounded-sm origin-left  ease-in-out duration-750 ${isOpen ? "rotate-45":""}`}/>
+                <div className={`w-6 h-1 bg-blue-500 rounded-sm  ease-in-out duration-750 ${isOpen ? "opacity-0":""}`}/>
+                <div className={`w-6 h-1 bg-blue-500 rounded-sm origin-left ease-in-out duration-750 ${isOpen ? "-rotate-45":""}`}/>
+            
                
             </div>
             {isOpen && (
