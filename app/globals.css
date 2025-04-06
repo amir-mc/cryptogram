@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.scroll-hidd::-webkit-scrollbar {
+  display: none;
+}
+.scroll-hidd {
+  scrollbar-width: none;
+}
