@@ -7,9 +7,11 @@ import Usermedia from "./usermedia";
 const Rightbar = ({userId}:{userId?:string}) => {
     return ( 
         <div className="flex flex-col gap-6">
-           
-                <UserInfo userId={userId}/>
-                <Usermedia userId={userId} />
+           {userId ? (<>
+           <UserInfo userId={userId}/>
+            <Usermedia userId={userId} />
+           </>) : null }
+                
           
                 <FriendsRequest/>
                 <NewCoin/>

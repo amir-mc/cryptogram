@@ -11,7 +11,7 @@ export default function Home() {
       {/* left bar */}
      
       <div className="hidden xl:block w-[20%]">
-      <Leftbar/>
+      <Leftbar type="home"/>
 
       </div>
       {/* center */}
