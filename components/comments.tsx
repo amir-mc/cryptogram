@@ -1,4 +1,4 @@
-import { MoreHorizontal, Smile, ThumbsUp } from "lucide-react";
+import { MoreHorizontal, Smile } from "lucide-react";
 import CommentTraction from "./commentTraction";
 import Image from "next/image";
 

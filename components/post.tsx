@@ -1,4 +1,4 @@
-import { MessageCircle, MoreHorizontal, Share2, ThumbsUp } from "lucide-react";
+import {  MoreHorizontal } from "lucide-react";
 import TractionPost from "./traction";
 import Comments from "./comments";
 import Image from "next/image";

@@ -5,11 +5,6 @@ import Navbar from "../components/navbar";
  
 import {
   ClerkProvider,
-  SignInButton,
-  SignUpButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
 } from '@clerk/nextjs'
 const geistSans = Geist({
   variable: "--font-geist-sans",

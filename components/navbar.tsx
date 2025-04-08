@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Mobilemenu from "./mobliemenu";
 import { Bell, CircleFadingPlus, Home, MessageCircle, Search, User, Users } from "lucide-react";
-import { ClerkLoaded, ClerkLoading, SignedIn, SignedOut, SignIn, UserButton } from "@clerk/nextjs";
+import { ClerkLoaded, ClerkLoading, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 
 
 const Navbar = () => {
