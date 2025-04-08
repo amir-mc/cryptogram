@@ -14,7 +14,7 @@ const Profile = () => {
         </div>
         {/* center */}
         <div className="w-full lg:w-[70%]">
-          <div className="flex flex-col gap-6 bg-slate-800 rounded-lg">
+          <div className="flex flex-col gap-6 dark:bg-slate-800 rounded-lg">
             <div className="flex flex-col items-center justify-center">
               <div className="w-full h-64 relative ">
                 {/* <div  className="object-cover  rounded-xl bg-blue-300 "></div> */}

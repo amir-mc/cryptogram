@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Profilecard = () => {
     return ( 
@@ -16,7 +17,11 @@ const Profilecard = () => {
                     </div>
                     
                 </div>
-                <button className="bg-blue-500 py-2 px-1 text-white rounded-xl">My profile</button>
+                <Link href='/profile/123' className="cursor-pointer">
+                
+                
+                <button className="bg-blue-500 py-2 px-1 text-white rounded-xl cursor-pointer">My profile</button>
+                </Link>
             </div>
         </div>
      );
