@@ -5,9 +5,9 @@ import Ad from "./ad";
 
 const Leftbar = ({type}:{type:'user'|'home'}) => {
     return ( 
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 ">
             {type==='home' && <Profilecard/> }
-            <div className="p-4 bg-white rounded-lg shadow-md text-sm text-gray-500 flex flex-col gap-4 ">
+            <div className="p-4 bg-white dark:bg-slate-900 rounded-lg shadow-md text-sm text-gray-500 flex flex-col gap-4 ">
                 <Link href='/' className="flex items-center gap-4 p-2 rounded-lg hover:bg-slate-300">
                 <Image/>
                 <span>my photo</span>

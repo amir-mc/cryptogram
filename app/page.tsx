@@ -7,10 +7,10 @@ import Stories from "@/components/stories";
 
 export default function Home() {
   return (
-    <div className="flex gap-6 pt-6" >
+    <div className="flex gap-6 pt-6 " >
       {/* left bar */}
      
-      <div className="hidden xl:block w-[20%]">
+      <div className="hidden xl:block w-[20%] "> 
       <Leftbar type="home"/>
 
       </div>

@@ -1,9 +1,12 @@
+import Image from "next/image";
+
 const Profilecard = () => {
     return ( 
-        <div className="p-4 bg-white rounded-lg shadow-md text-sm flex flex-col gap-6 ">
+        <div className="p-4 bg-white dark:bg-slate-900 rounded-lg shadow-md text-sm flex flex-col gap-6 ">
             <div className="h-20 relative bg-green-400 ">
-                <div className=" bg-green-400"></div>
-                <div className="rounded-full w-12 h-12 absolute left-0 right-0 m-auto -bottom-6 ring-1 ring-white bg-blue-300 z-10 object-cover"></div>
+                 <Image alt="" fill src='https://wallpapers.com/images/high/pile-of-golden-binance-coins-gou50txd1fbbair4.webp' />
+                {/* <div className="rounded-full w-12 h-12 absolute left-0 right-0 m-auto -bottom-6 ring-1 ring-white bg-blue-300 z-10 object-cover"></div> */}
+                <Image alt="" width={50} height={50} className="rounded-full w-12 h-12 absolute left-0 right-0 m-auto -bottom-6 ring-1 ring-white bg-blue-300 z-10 object-cover"  src='https://wallpapers.com/images/high/cyber-background-szefzeenouzjg9bv.webp' />
             </div>
             <div className="h-20 flex flex-col gap-2 items-center">
                 <span>testi</span>

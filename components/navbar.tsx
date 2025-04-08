@@ -6,7 +6,7 @@ import { ClerkLoaded, ClerkLoading, SignedIn, SignedOut, SignIn, UserButton } fr
 
 const Navbar = () => {
     return ( 
-        <div className="h-24 flex items-center justify-between " >
+        <div className="h-24 flex items-center justify-between drop-shadow-xl " >
             <div className="md:hidden lg:block w-[20%]">
                 <Link href='/'>
                     <span className="text-amber-400">C</span>ryptoGram
@@ -18,7 +18,7 @@ const Navbar = () => {
                     <Link href='/' className="flex gap-2 items-center"><Users className="w-4 h-4"/> Friends</Link>
                     <Link href='/' className="flex gap-2 items-center"><CircleFadingPlus className="w-4 h-4"/> Story</Link>
                 </div>
-                <div className="hidden xl:flex p-2 bg-slate-200 items-center rounded-xl ">
+                <div className="hidden xl:flex p-2 bg-slate-200 dark:bg-slate-900 dark:text-gray-500 items-center rounded-xl ">
                     <input type="text" placeholder="Looking for something" className="bg-transparent outline-none"></input>
                     <Search/>
                 </div>

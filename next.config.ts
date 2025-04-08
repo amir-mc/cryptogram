@@ -6,7 +6,9 @@ const nextConfig: NextConfig = {
   //   reactCompiler: true,
   //   ppr: 'incremental'
   // },
- 
+  images: {
+    domains: ['wallpapers.com'], // replace with your actual image domain
+  },
 };
 
 export default nextConfig;
